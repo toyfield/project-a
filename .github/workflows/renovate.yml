@@ -21,3 +21,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           LOG_LEVEL: debug
+          RENOVATE_DETECT_HOST_RULES_FROM_ENV: "true"
+          NPM_REGISTRY_NPM_PKG_GITHUB_COM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
