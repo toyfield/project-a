@@ -7,8 +7,6 @@ on:
       - "renovate.json5"
       - "renovate-config.js"
       - ".github/workflows/renovate.yml"
-  registry_package:
-    types: [published, updated]
 
 jobs:
   renovate:

@@ -2,10 +2,8 @@ module.exports = {
     branchPrefix: 'renovate-self/',
     username: 'renovate-release',
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
-    onboarding: false,
     platform: 'github',
     forkProcessing: 'enabled',
-    // dryRun: 'full',
     autodiscover: true,
     autodiscoverFilter: ["toyfield/project-a"],
     packageRules: [
