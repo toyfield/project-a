@@ -19,6 +19,7 @@ jobs:
         with:
           configurationFile: renovate-config.js
           token: ${{ secrets.GITHUB_TOKEN }}
+          env-regex: "^(?:RENOVATE_\\w+|LOG_LEVEL|GITHUB_COM_TOKEN|NODE_OPTIONS|AWS_TOKEN|NPM_REGISTRY_\\w+)$"
         env:
           LOG_LEVEL: debug
           RENOVATE_DETECT_HOST_RULES_FROM_ENV: "true"
