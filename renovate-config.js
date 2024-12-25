@@ -6,6 +6,7 @@ module.exports = {
     platform: 'github',
     forkProcessing: 'enabled',
     dryRun: 'full',
+    autodiscoverFilter: ["toyfield/project-a"],
     packageRules: [
       {
         description: 'lockFileMaintenance',
