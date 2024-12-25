@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@toyfield/pkg-a": "0.1.0"
+    "@toyfield/pkg-a": "0.1.1"
   }
 }
