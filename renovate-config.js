@@ -5,7 +5,7 @@ module.exports = {
     onboarding: false,
     platform: 'github',
     forkProcessing: 'enabled',
-    dryRun: 'full',
+    // dryRun: 'full',
     autodiscover: true,
     autodiscoverFilter: ["toyfield/project-a"],
     packageRules: [
