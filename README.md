@@ -1,6 +1,7 @@
 # project-a
 
 这是一个拉取 github npm registry 的示例。
+这个项目同时是使用 renovate github action 更新 package 依赖的示例。
 
 ## 配置
 
