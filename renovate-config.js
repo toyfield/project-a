@@ -1,6 +1,6 @@
 module.exports = {
     branchPrefix: 'renovate-self/',
-    username: 'renovate-release',
+    // username: 'renovate-release',
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     platform: 'github',
     forkProcessing: 'enabled',
