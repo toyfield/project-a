@@ -10,7 +10,7 @@
     "rangeStrategy": "pin",
     "packageRules": [
       {
-        "matchDepPatterns": [".*"],
+        "matchDepNames": [".*"],
         "enabled": true
       }
     ],
