@@ -21,6 +21,7 @@ module.exports = {
         minimumReleaseAge: "0",
       },
     ],
+    inheritConfig: true,
     inheritConfigRepoName: 'toyfield/project-a',
     inheritConfigFileName: "renovate-action.json"
   };
