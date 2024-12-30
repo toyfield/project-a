@@ -4,7 +4,7 @@ on:
   workflow_call:
   push:
     paths:
-      - "renovate.json5"
+      - "renovate-action.json"
       - "renovate-config.js"
       - ".github/workflows/renovate.yml"
 
