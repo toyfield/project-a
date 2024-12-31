@@ -3,6 +3,8 @@ module.exports = {
     // username: 'renovate-release',
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     platform: 'github',
+    // use this to avoid conflicts with Renovate's own PRs
+    dependencyDashboardTitle: "Action Dependency Dashboard",
     forkProcessing: 'enabled',
     ignorePrAuthor: true,
     autodiscover: true,
