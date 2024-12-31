@@ -14,13 +14,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.REPO_READ }}
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v41.0.7
         with:
           configurationFile: renovate-config.js
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REPO_READ }}
           env-regex: "^(?:RENOVATE_\\w+|LOG_LEVEL|GITHUB_COM_TOKEN|NODE_OPTIONS|AWS_TOKEN|NPM_\\w+)$"
         env:
           LOG_LEVEL: debug
