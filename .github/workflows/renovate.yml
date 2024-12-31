@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   workflow_call:
   push:
+    branches:
+      - main
     paths:
       - "renovate-action.json"
       - "renovate-config.js"
