@@ -1,14 +1,11 @@
 module.exports = {
     branchPrefix: 'renovate-self/',
-    // username: 'renovate-release',
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     platform: 'github',
+    ignorePrAuthor: true,
     // use this to avoid conflicts with Renovate's own PRs
     dependencyDashboardTitle: "Action Dependency Dashboard",
-    forkProcessing: 'enabled',
-    ignorePrAuthor: true,
-    autodiscover: true,
-    autodiscoverFilter: ["toyfield/project-a"],
+    repositories: ["toyfield/project-a"],
     packageRules: [
       {
         description: 'lockFileMaintenance',
