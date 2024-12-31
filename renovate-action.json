@@ -2,7 +2,6 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended", ":disableDependencyDashboard"],
     "gitIgnoredAuthors": ["41898282+github-actions[bot]@users.noreply.github.com", "29139614+renovate[bot]@users.noreply.github.com"],
-    "ignorePrAuthor": true,
     "rangeStrategy": "pin",
     "packageRules": [
       {

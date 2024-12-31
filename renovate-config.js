@@ -4,6 +4,7 @@ module.exports = {
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     platform: 'github',
     forkProcessing: 'enabled',
+    ignorePrAuthor: true,
     autodiscover: true,
     autodiscoverFilter: ["toyfield/project-a"],
     packageRules: [
