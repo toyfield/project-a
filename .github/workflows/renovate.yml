@@ -23,7 +23,7 @@ jobs:
           key: docker-${{ runner.os }}
 
       - name: Self-hosted Renovate
-        uses: renovatebot/github-action@v41.0.7
+        uses: renovatebot/github-action@v43.0.20
         with:
           configurationFile: renovate-config.js
           token: ${{ secrets.REPO_READ }}
